@@ -1,9 +1,9 @@
 # ScolNetwork
 
 ## Funciones de nodos completos
-•	Almacena el historial completo de la cadena de bloques en el disco y puede responder a la solicitud de datos de la red.
-•	Recibe y valida los nuevos bloques y transacciones.
-•	Verifica los estados de todas las cuentas.
+- Almacena el historial completo de la cadena de bloques en el disco y puede responder a la solicitud de datos de la red.
+- Recibe y valida los nuevos bloques y transacciones.
+- Verifica los estados de todas las cuentas.
 
 ## Plataformas compatibles:
 
@@ -12,9 +12,9 @@ Admitimos la ejecución de un nodo completo en Mac OS X y Linux.
 ## Requisitos sugeridos
 
 ## nodo completo
-•	VPS con versiones recientes de Mac OS X o Linux.
-•	4 núcleos de CPU y 8 gigabytes de memoria (RAM).
-•	Una conexión a Internet de banda ancha con velocidades de carga/descarga de 5 megabytes por segundo.
+- VPS con versiones recientes de Mac OS X o Linux.
+- 4 núcleos de CPU y 8 gigabytes de memoria (RAM).
+- Una conexión a Internet de banda ancha con velocidades de carga/descarga de 5 megabytes por segundo.
 
 ## Pasos para ejecutar un nodo completo
 
@@ -59,20 +59,20 @@ geth --datadir node --syncmode 'full' --gcmode=archive   --port 40605 --http --h
 
 ## Podras usar los siguientes comandos:
 
-net.peerCount > cuentas Peer conectadas
+- net.peerCount > cuentas Peer conectadas
 
-admin.peers > pares conectados
+- admin.peers > pares conectados
 
-eth.blockNumber > Numero de Bloques
+- eth.blockNumber > Numero de Bloques
 
-eth.accounts > cantidad de Direcciones
+- eth.accounts > cantidad de Direcciones
 
-personal.newAccount() Crea una nueva direccion
+- personal.newAccount() Crea una nueva direccion
 
-eth.getBalance(eth.accounts[0]) Obtener balance de la dirección 1
+- eth.getBalance(eth.accounts[0]) Obtener balance de la dirección 1
 
-eth.sendTransaction({from:"origen",to:"destino",value: web3.toWei(1, "ether") }) enviar
+- eth.sendTransaction({from:"origen",to:"destino",value: web3.toWei(1, "ether") }) enviar
 
-eth.getBalance("0x20dCB6478825b9DA96c543453bCec2B945e9FB88") obtener balance
+- eth.getBalance("0x20dCB6478825b9DA96c543453bCec2B945e9FB88") obtener balance
 
 para salir del screen Ctrl A y D
