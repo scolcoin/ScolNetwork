@@ -19,6 +19,7 @@ Admitimos la ejecución de un nodo completo en Mac OS X y Linux.
 ## Pasos para ejecutar un nodo completo
 
 En tu VPS en Home Crear carpeta de nodos
+
 `mkdir node`
 
 ## Descargue geth - scol_mainnet.json - static-nodes.json desde:
@@ -30,10 +31,13 @@ En tu VPS en Home Crear carpeta de nodos
 
 
 ## Instalamos el geth:
+
 `chmod 777 geth`
+
 `sudo mv geth /usr/local/bin/`
 
 ## Inicializar el nodo
+
 `geth --datadir ./node init scol_mainnet.json`
 
 
