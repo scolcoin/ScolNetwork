@@ -21,33 +21,33 @@
 En tu VPS en Home Crear carpeta de nodos
 mkdir node
 
-Descargue geth - scol_mainnet.json - static-nodes.json desde:
+#Descargue geth - scol_mainnet.json - static-nodes.json desde:
 wget https://raw.githubusercontent.com/scolcoin/ScolNetwork/master/scol_mainnet.json 
 wget https://raw.githubusercontent.com/scolcoin/ScolNetwork/master/static-nodes.json  
 wget https://raw.githubusercontent.com/scolcoin/ScolNetwork/master/geth 
 
 
-Instalamos el geth:
+#Instalamos el geth:
 chmod 777 geth
 sudo mv geth /usr/local/bin/
 
-Inicializar el nodo
+#Inicializar el nodo
 geth --datadir ./node init scol_mainnet.json
 
 
 
 
-Ejecutar los nodos
+#Ejecutar los nodos
 geth --datadir node --syncmode 'full' --gcmode=archive   --port 40605 --http --http.port 3545 --http.api 'personal,eth,net,web3,personal,admin,miner,txpool,debug' --bootnodes enode://77f7dbb542cc7278d4a8bcb70cf142da58fe796aa7a9092908ac4481ce76079a5404e83bc0460cbf0278f9662d3593136a3a906ceb517d6e11c84222e1ebaecc@185.249.227.141:0?discport=40606 --networkid 65450 --allow-insecure-unlock
 
 para Parar la red escribimos Ctrl D o Ctrl C
 
 de esta forma podras ejecutar un nodo pero si quieres una consola de escritura te recomendamos primero ponerlos en un screen
 
-Instalamos
+#Instalamos
 apt install screen
 
-Creamos Scol
+#Creamos Scol
 Screen –S scol
 Si queremos salir de screen Ctrl A y D 
 Para volver a iniciar Screen –r scol con esto ingresamos
