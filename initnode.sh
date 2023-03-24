@@ -1,0 +1,1 @@
+./geth --datadir ./mnode1 init scol_mainnet.json
