@@ -65,6 +65,8 @@ En este screen ponemos la siguiente instrucción:
 
 ## Podras usar los siguientes comandos:
 
+- `geth attach http://localhost:3545`  > ingresar a la consola
+
 - `net.peerCount` > cuentas Peer conectadas
 
 - `admin.peers` > pares conectados
