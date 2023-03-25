@@ -52,7 +52,7 @@ de esta forma podras ejecutar un nodo pero si quieres una consola de escritura t
 `apt install screen`
 
 ## Creamos Scol
-`Screen –S scol`
+`screen –S scol`
 
 Si queremos salir de screen Ctrl A y D 
 
