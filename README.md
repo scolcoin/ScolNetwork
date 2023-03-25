@@ -61,6 +61,8 @@ Para volver a iniciar `Screen –r scol` con esto ingresamos
 En este screen ponemos la siguiente instrucción:
 `geth --datadir node --syncmode 'full' --gcmode=archive   --port 40605 --http --http.port 3545 --http.api 'personal,eth,net,web3,personal,admin,miner,txpool,debug' --bootnodes enode://77f7dbb542cc7278d4a8bcb70cf142da58fe796aa7a9092908ac4481ce76079a5404e83bc0460cbf0278f9662d3593136a3a906ceb517d6e11c84222e1ebaecc@185.249.227.141:0?discport=40606 --networkid 65450 --allow-insecure-unlock console 2>> /null`
 
+`admin.addPeer("enode://844800ade2bf4fd5565d135c4ed3c1cc71148c6a686625ab6eb17d943de40356475b8799db887f6009fd392000fc51f76295e94a1323edba8ed95c407dba38f9@185.249.227.141:40605")`
+
 ## Podras usar los siguientes comandos:
 
 - `net.peerCount` > cuentas Peer conectadas
