@@ -45,7 +45,7 @@ En tu VPS en Home Crear carpeta de nodos
 `--syncmode 'full'`
 
 ### Nodo parcial
-También es posible crear un nodo de archivo parcial/reciente donde el nodo se sincronizó mediante snap pero el estado nunca se elimina. Esto crea un nodo de archivo que guarda todos los datos de estado desde el punto en que el nodo se sincroniza por primera vez. Esto se configura iniciando Geth con ` --syncmode snap --gcmode archive ` .
+También es posible crear un nodo de archivo parcial/reciente donde el nodo se sincronizó mediante snap pero el estado nunca se elimina. Esto crea un nodo de archivo que guarda todos los datos de estado desde el punto en que el nodo se sincroniza por primera vez. Esto se configura iniciando Geth con ` --syncmode 'snap' --gcmode=archive ` .
 
 
 ## Ejecutar los nodos
