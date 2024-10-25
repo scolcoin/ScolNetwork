@@ -29,6 +29,8 @@ En tu VPS en Home Crear carpeta de nodos
 
 `wget https://raw.githubusercontent.com/scolcoin/ScolNetwork/master/geth` 
 
+`wget  https://github.com/scolcoin/ScolNetwork/blob/master/add-peers.sh` 
+
 
 ## Instalamos el geth:
 
