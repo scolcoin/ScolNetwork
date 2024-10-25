@@ -44,6 +44,10 @@ nano add-peers.sh
 
 `geth --datadir ./node init scol_mainnet.json`
 
+## Programamos los nodos
+crontab -e
+@reboot /root/src/add-peers.sh
+
 ## Tipos de Nodo
 ### Nodo Full
 `--syncmode 'full'`
