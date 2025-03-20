@@ -42,7 +42,7 @@ nano add-peers.sh
 
 ## Inicializar el nodo
 
-`geth --datadir ./node init scol_mainnet.json`
+`geth --datadir ./node init genesis.json`
 
 ## Programamos los nodos
 crontab -e
