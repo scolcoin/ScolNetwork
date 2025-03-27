@@ -34,7 +34,7 @@ En tu VPS en Home Crear carpeta de nodos
 
 `chmod 777 geth`
 
-`chmod 777 add-peers.sh`
+`chmod 777 add-peer.sh`
 
 `sudo mv geth /usr/local/bin/`
 
