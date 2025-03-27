@@ -44,7 +44,7 @@ En tu VPS en Home Crear carpeta de nodos
 
 ## Programamos los nodos
 crontab -e
-@reboot /root/src/add-peers.sh
+@reboot /root/src/add-peer.sh
 
 ## Tipos de Nodo
 ### Nodo Full
