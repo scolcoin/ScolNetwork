@@ -25,7 +25,7 @@ En tu VPS en Home Crear carpeta de nodos
 ## Descargue geth - scol_mainnet.json - static-nodes.json desde:
 `wget https://raw.githubusercontent.com/scolcoin/ScolNetwork/master/genesis.json`
 
-`wget https://raw.githubusercontent.com/scolcoin/ScolNetwork/master/static-nodes.json`  
+`wget https://raw.githubusercontent.com/scolcoin/ScolNetwork/master/add-peer.sh`  
 
 `wget https://raw.githubusercontent.com/scolcoin/ScolNetwork/master/geth` 
 
