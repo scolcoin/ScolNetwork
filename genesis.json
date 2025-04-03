@@ -11,7 +11,7 @@
     "petersburgBlock": 0,
     "istanbulBlock": 0,
     "clique": {
-      "period": 15,
+      "period": 5,
       "epoch": 30000
     }
   },
@@ -25,10 +25,20 @@
   "alloc": {
     "0xDd47C73bCA9E95BedF6E0156cC79b7A46143c0FA": {
       "balance": "80000000000000000000000000"
-    }
+    },
+    "0x5c3374e0e7A2A5110Ad8e13de4eF08624C7CC1C8": {
+      "balance": "99420000000000000000000000000"
+    },
+    "0x861869A9Cf596103D026A2570AD9cF6057f186be": {
+      "balance": "250000000000000000000000000"
+    },
+    "0xaEc6Dc0887D59bCB24775538c3Bd3Debce934201": {
+      "balance": "250000000000000000000000000"
+    }		
   },
   "number": "0x0",
   "gasUsed": "0x0",
   "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "baseFeePerGas": "0x3B9ACA00"
 }
+
