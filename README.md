@@ -51,7 +51,7 @@ crontab -e
 `--syncmode 'full'`
 
 ## Ejecutar los nodos
-`geth --datadir node --syncmode 'full' --gcmode=archive   --port 40605 --http --http.port 3545 --http.api 'personal,eth,net,web3,personal,admin,miner,txpool,debug' --bootnodes enode://762d3b62342a9d0ccec763ea2564d2e2c95522860b074c354d9c4e198cf8fcc601ce6ab993c9f66278879a8ba6331b0ab32bf85dd1c9b68588c061b81321dcf1@185.249.227.141:0?discport=40606 --networkid 65450 --allow-insecure-unlock`
+`geth --datadir node --syncmode 'full' --gcmode=archive   --port 40605 --http --http.port 3545 --http.api 'personal,eth,net,web3,personal,admin,miner,txpool,debug' --bootnodes enode://3b364882fed8024c4436649b43718afc9575dc8907f038c61ebb51cc8aadcfd76e846fc23d98a812a6542a01b486c26caadeaf2179a3923dcb61e19f9a6de6ab@84.247.128.187:40605 --networkid 65450 --allow-insecure-unlock`
 
 para Parar la red escribimos Ctrl D o Ctrl C
 
