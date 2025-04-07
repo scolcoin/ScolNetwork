@@ -46,10 +46,6 @@ En tu VPS en Home Crear carpeta de nodos
 crontab -e
 @reboot /root/src/add-peer.sh
 
-## Tipos de Nodo
-### Nodo Full
-`--syncmode 'full'`
-
 ## Ejecutar los nodos
 `geth --datadir node --syncmode 'full' --gcmode=archive   --port 40605 --http --http.port 3545 --http.api 'personal,eth,net,web3,personal,admin,miner,txpool,debug' --bootnodes enode://3b364882fed8024c4436649b43718afc9575dc8907f038c61ebb51cc8aadcfd76e846fc23d98a812a6542a01b486c26caadeaf2179a3923dcb61e19f9a6de6ab@84.247.128.187:40605 --networkid 65450 --allow-insecure-unlock`
 
@@ -57,8 +53,11 @@ para Parar la red escribimos Ctrl D o Ctrl C
 
 de esta forma podras ejecutar un nodo pero si quieres una consola de escritura te recomendamos primero ponerlos en un screen
 
-## Instalamos
-`apt install screen`
+## Instalar Node.js y npm
+`curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+sudo npm install -g pm2
+pm2 startup`
 
 ## Creamos Scol
 `screen –S scol`
