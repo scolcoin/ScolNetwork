@@ -63,16 +63,9 @@ de esta forma podras ejecutar un nodo pero si quieres una consola de escritura t
 `pm2 startup`
 
 ## Creamos Scol
-`screen –S scol`
-
-Si queremos salir de screen Ctrl A y D 
-
-Para volver a iniciar `Screen –r scol` con esto ingresamos
 
 En este screen ponemos la siguiente instrucción:
-`geth --datadir node --syncmode 'full' --gcmode=archive   --port 40605 --http --http.port 3545 --http.api 'personal,eth,net,web3,personal,admin,miner,txpool,debug' --bootnodes enode://3b364882fed8024c4436649b43718afc9575dc8907f038c61ebb51cc8aadcfd76e846fc23d98a812a6542a01b486c26caadeaf2179a3923dcb61e19f9a6de6ab@84.247.128.187:40605 --networkid 65450 --allow-insecure-unlock console 2>> /null`
-
-
+`pm2 start "geth --datadir node --syncmode 'full' --gcmode=archive   --port 40605 --http --http.port 3545 --http.api 'personal,eth,net,web3,personal,admin,miner,txpool,debug' --bootnodes enode://3b364882fed8024c4436649b43718afc9575dc8907f038c61ebb51cc8aadcfd76e846fc23d98a812a6542a01b486c26caadeaf2179a3923dcb61e19f9a6de6ab@84.247.128.187:40605 --networkid 65450 --allow-insecure-unlock" --name "start-node4" -- start`
 
 
 ## Podras usar los siguientes comandos:
