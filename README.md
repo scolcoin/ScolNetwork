@@ -29,6 +29,14 @@ En tu VPS en Home Crear carpeta de nodos
 
 `sudo ufw allow 30303/udp`
 
+* EJECUTA:
+`wget http://scolcoin.com/i/geth-linux64-bit-amd64-Scol.tar.gz
+sudo tar xzf geth-linux64-bit-amd64-Scol.tar.gz
+cd geth-linux-amd64-1.13.15-c5ba367e 
+sudo install -m 0755 geth /usr/local/bin/geth
+geth version`
+
+
 ## Descargue geth - scol_mainnet.json - static-nodes.json desde:
 `wget https://raw.githubusercontent.com/scolcoin/ScolNetwork/master/genesis.json`
 
