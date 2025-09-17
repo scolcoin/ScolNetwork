@@ -24,7 +24,9 @@ Admitimos la ejecución de un nodo completo en Mac OS X y Linux.
 
 En tu VPS en Home Crear carpeta de nodos
 * Permisos:
+
 `sudo ufw allow 30303/tcp`
+
 `sudo ufw allow 30303/udp`
 
 ## Descargue geth - scol_mainnet.json - static-nodes.json desde:
