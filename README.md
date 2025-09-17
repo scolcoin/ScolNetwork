@@ -1,4 +1,4 @@
-# ScolNetwork
+# ScolNetwork 2025
 
 ## Funciones de nodos completos
 - Almacena el historial completo de la cadena de bloques en el disco y puede responder a la solicitud de datos de la red.
@@ -18,9 +18,14 @@ Admitimos la ejecución de un nodo completo en Mac OS X y Linux.
 
 ## Pasos para ejecutar un nodo completo
 
-En tu VPS en Home Crear carpeta de nodos
+# Linux 32
 
-`mkdir node`
+# Linux 64
+
+En tu VPS en Home Crear carpeta de nodos
+* Permisos:
+`sudo ufw allow 30303/tcp`
+`sudo ufw allow 30303/udp`
 
 ## Descargue geth - scol_mainnet.json - static-nodes.json desde:
 `wget https://raw.githubusercontent.com/scolcoin/ScolNetwork/master/genesis.json`
