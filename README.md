@@ -18,8 +18,6 @@ Admitimos la ejecución de un nodo completo en Mac OS X y Linux.
 
 ## Pasos para ejecutar un nodo completo
 
-# Linux 32
-
 # Linux 64
 
 En tu VPS en Home Crear carpeta de nodos
@@ -33,15 +31,25 @@ En tu VPS en Home Crear carpeta de nodos
   
 mkdir -p /var/lib/geth-scol /etc/geth-scol
 
-## Descargue geth:
+## Descargue geth en linux 64:
 
 `wget http://scolcoin.com/i/geth-linux64-bit-amd64-Scol.tar.gz`
 
 `sudo tar xzf geth-linux64-bit-amd64-Scol.tar.gz`
 
-## Instalamos
-
 `cd geth-linux-amd64-1.13.15-c5ba367e`
+
+`sudo install -m 0755 geth /usr/local/bin/geth`
+
+`geth version` 
+
+# o Descargue geth en Linux 32:
+
+`wget http://scolcoin.com/i/geth-linux32-bit-386-Scol.tar.gz`
+
+`sudo tar xzf geth-linux32-bit-386-Scol.tar.gz`
+
+`cd geth-linux-386-1.13.15-c5ba367e`
 
 `sudo install -m 0755 geth /usr/local/bin/geth`
 
