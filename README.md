@@ -75,7 +75,8 @@ chown -R geth:geth /var/lib/geth-scol`
 
 ## Prueba de funcionamiento del Geth con nuestra red:
 
-`sudo -u geth /usr/local/bin/geth \
+`
+sudo -u geth /usr/local/bin/geth \
   --datadir /var/lib/geth-scol \
   --bootnodes "enode://ec679eec262a5e3fe93ae01aaa4640966808cc63fe911264288958db885976aa4cdd981506764e65ebb69d485de83225dcfa813d25de7ae727af44b9d78553cf@185.249.227.142:30303,enode://32ec33aca4244aca2b3bd78e5c14c417f3b2450568292dd65ce0520fc22286b9cf32822db5df2eba4f99477035d01c2f385a7bcf02f3ad81485a507386eba793@158.220.118.217:30303,enode://b463e4fbe3b3e4f4a3fcd5486dbaf6f23ba7e3ddc716544f476be17bf050852fecdd4fba36be509342e75000d99ec34fbbf3903f857e95731e734295722b5812@38.242.226.154:30303,enode://a704d85710ee8ff98fe7564c45aea407265cb1a1c29fa8237f3be3603c12c438217400132e6917952afb70159e7317834ef144516a582d2c3540f6cae0379673@2.59.156.157:30303,enode://ee0b8e1addd6963b1d6650c07401f51a3b3f1b0aa3939605905722460266531a367582002b1ccc9c04198c6f0eaf3aea732f587ef8ddb38004a0659bb87b59f7@213.199.45.11:30303" \
   --networkid 65450 \
@@ -121,31 +122,18 @@ para grabar Ctrl X y le ponemos la letra Y enter para almacenar
 
 * Iniciamos:
 
-`sudo systemctl daemon-reload
+`sudo systemctl daemon-reload`
 
-sudo systemctl enable --now geth-scol.service
+`sudo systemctl enable --now geth-scol.service`
 
-journalctl -u geth-scol -f `
+`journalctl -u geth-scol -f `
 
-
-## Instalar Node.js y npm
-`curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -`
-
-`sudo apt-get install -y nodejs`
-
-`sudo npm install -g pm2`
-
-`pm2 startup`
-
-## Creamos Scol
-
-En este screen ponemos la siguiente instrucción:
-`pm2 start "geth --datadir node --syncmode 'full' --gcmode=archive   --port 40605 --http --http.port 3545 --http.api 'personal,eth,net,web3,personal,admin,miner,txpool,debug' --bootnodes enode://3b364882fed8024c4436649b43718afc9575dc8907f038c61ebb51cc8aadcfd76e846fc23d98a812a6542a01b486c26caadeaf2179a3923dcb61e19f9a6de6ab@84.247.128.187:40605 --networkid 65450 --allow-insecure-unlock" --name "start-node4" -- start`
+Ctrl C para salir del geth del sistema queda automatico en su servidor.
 
 
 ## Podras usar los siguientes comandos:
 
-- `geth attach http://localhost:3545`  > ingresar a la consola
+- `geth attach http://localhost:8545`  > ingresar a la consola
 
 - `net.peerCount` > cuentas Peer conectadas
 
@@ -163,4 +151,4 @@ En este screen ponemos la siguiente instrucción:
 
 - `eth.getBalance("0x20dCB6478825b9DA96c543453bCec2B945e9FB88")` > obtener balance
 
-para salir del screen Ctrl A y D
+para salir de la consola Ctrl C
