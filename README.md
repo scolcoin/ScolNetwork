@@ -39,14 +39,13 @@ mkdir -p /var/lib/geth-scol /etc/geth-scol
 
 `sudo tar xzf geth-linux64-bit-amd64-Scol.tar.gz`
 
+## Instalamos
+
 `cd geth-linux-amd64-1.13.15-c5ba367e`
 
 `sudo install -m 0755 geth /usr/local/bin/geth`
 
 `geth version` 
-
-## Instalamos script auto:
-`wget https://raw.githubusercontent.com/scolcoin/ScolNetwork/master/add-peer.sh` 
 
 ## Instalamos el geth:
 
