@@ -47,13 +47,11 @@ mkdir -p /var/lib/geth-scol /etc/geth-scol
 
 `geth version` 
 
-## Instalamos el geth:
+## Instalamos el genesis:
 
-`chmod 777 geth`
+`cd /etc/geth-scol`
 
-`chmod 777 add-peer.sh`
-
-`sudo mv geth /usr/local/bin/`
+`wget http://scolcoin.com/i/genesis.json`
 
 ## Inicializar el nodo
 
