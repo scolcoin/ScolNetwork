@@ -150,6 +150,9 @@ para salir de la consola Ctrl C
 
 # Otras Distribuciones de Linux:
 
+### Arm5
+`wget http://scolcoin.com/i/geth-linux-arm5-Scol.tar.gz`
+
 ### Arm6
 `wget http://scolcoin.com/i/geth-linux-arm6-Scol.tar.gz`
 
