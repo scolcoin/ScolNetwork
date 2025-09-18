@@ -92,7 +92,8 @@ para Parar la red escribimos Ctrl D o Ctrl C
 ## Creamos entorno de Sistema
 
 `nano /etc/systemd/system/geth-scol.service`
-`
+
+
 [Unit]
 Description=Geth (SCOL Execution Layer)
 After=network-online.target
@@ -117,7 +118,8 @@ Restart=always
 RestartSec=5
 StandardOutput=journal
 StandardError=journal
-`
+
+
 para grabar Ctrl X y le ponemos la letra Y enter para almacenar
 
 * Iniciamos:
