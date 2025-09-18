@@ -168,3 +168,14 @@ Ctrl C para salir del geth del sistema queda automatico en su servidor.
 - `eth.getBalance("0x20dCB6478825b9DA96c543453bCec2B945e9FB88")` > obtener balance
 
 para salir de la consola Ctrl C
+
+# Otras Distribuciones de Linux:
+
+### Arm6
+`wget http://scolcoin.com/i/geth-linux-arm6-Scol.tar.gz`
+
+### Arm7
+`wget http://scolcoin.com/i/geth-linux-arm7-Scol.tar.gz`
+
+### Arm64
+`wget http://scolcoin.com/i/geth-linux-arm64-Scol.tar.gz`
