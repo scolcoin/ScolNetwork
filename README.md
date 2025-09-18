@@ -119,6 +119,8 @@ RestartSec=5
 StandardOutput=journal
 StandardError=journal
 
+[Install]
+WantedBy=multi-user.target
 
 para grabar Ctrl X y le ponemos la letra Y enter para almacenar
 
