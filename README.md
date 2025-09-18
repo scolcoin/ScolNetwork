@@ -58,13 +58,13 @@ mkdir -p /var/lib/geth-scol /etc/geth-scol
 `geth init --datadir /var/lib/geth-scol /etc/geth-scol/genesis.json`
 
 ## Permisos y usuario
-sudo useradd --system --home /var/lib/geth-scol --shell /usr/sbin/nologin geth
+`sudo useradd --system --home /var/lib/geth-scol --shell /usr/sbin/nologin geth
 sudo chown -R geth:geth /var/lib/geth-scol
 sudo chown -R root:root /etc/geth-scol
 sudo find /var/lib/geth-scol -type d -exec chmod 0750 {} \;
 sudo find /var/lib/geth-scol -type f -exec chmod 0640 {} \;
 sudo chown geth:geth /var/lib/geth-scol
-chown -R geth:geth /var/lib/geth-scol
+chown -R geth:geth /var/lib/geth-scol`
 
 ## Prueba de funcionamiento del Geth con nuestra red:
 
@@ -77,7 +77,7 @@ chown -R geth:geth /var/lib/geth-scol
   --networkid 65450 \
   --port 30303 \
   --http --http.addr 127.0.0.1 --http.port 8545 \
-  --http.api eth,net,web3,admin,clique,txpool \
+  --http.api eth,net,web3,admin,clique,txpool,personal \
   --allow-insecure-unlock \
   --syncmode full --gcmode full \
   --verbosity 3
