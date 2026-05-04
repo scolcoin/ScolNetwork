@@ -59,3 +59,4 @@ pause`
 
 o si lo deseas puedes descargar el archivo ya listo y ubicarlo en C:\scolcoin link archivo:
 [start_scolcoin.bat](https://github.com/scolcoin/ScolNetwork/blob/master/start_scolcoin.bat)
+Nota: estamos ubicando los bloques en la unidad D:\scolcoin\ pero si no tienes debes cambiar la ubicacion a C:\scolcoin\
