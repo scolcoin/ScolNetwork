@@ -7,3 +7,5 @@ Antes de iniciar, es recomendable asegurarse de que el sistema cumpla con los re
 - Conexión a Internet: Conexión estable de banda ancha sin límites de datos (la sincronización inicial puede consumir cientos de GB).
 - Espacio de trabajo: Crear una carpeta específica, por ejemplo C:\scolcoin\Geth para el ejecutable.
 
+## Instalación del ejecutable
+ubicar en C:\scolcoin\Geth el archivo:
