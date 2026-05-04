@@ -9,3 +9,7 @@ Antes de iniciar, es recomendable asegurarse de que el sistema cumpla con los re
 
 ## Instalación del ejecutable
 ubicar en C:\scolcoin\Geth el archivo:
+### Windows 32 bits /Sistemas 32 bits (x86)
+wget http://scolcoin.com/i/geth-windows-386-Scol.exe
+### Windows 64 bits / Sistemas 64 bits (x64)
+http://scolcoin.com/i/geth-windows-amd64-Scol.exe
