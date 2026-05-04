@@ -113,8 +113,8 @@ Abre PowerShell o CMD como Administrador y ejecuta:
 `geth.exe attach http://127.0.0.1:8545`
 
 ### Nota:
-- eth.syncing        |  Muestra progreso de sincronización
-- eth.blockNumber    // Último bloque descargado
-- net.peerCount      // Cantidad de pares conectados
-- admin.nodeInfo     // Información del nodo
-- exit               // Salir
+- `eth.syncing`        //  Muestra progreso de sincronización
+- `eth.blockNumber`    // Último bloque descargado
+- `net.peerCount`      // Cantidad de pares conectados
+- `admin.nodeInfo`     // Información del nodo
+- `exit`               // Salir
