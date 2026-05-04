@@ -89,3 +89,32 @@ Agrega la informacion:
 Ve a la pestaña Details → Startup type: Automatic (para que arranque con Windows)
 
 Haz clic en Install service
+
+### Luego inicia el servicio:
+Abre PowerShell o CMD como Administrador y ejecuta:
+
+`cd C:\scolcoin`
+
+`nssm.exe start ScolcoinNode`
+
+### Para verificar logs:
+Abre PowerShell o CMD como Administrador y ejecuta:
+
+`cd C:\scolcoin`
+
+`nssm.exe status ScolcoinNode`
+
+### Verificar que el nodo está corriendo
+
+Abre PowerShell o CMD como Administrador y ejecuta:
+
+`cd C:\scolcoin`
+
+`geth.exe attach http://127.0.0.1:8545`
+
+### Nota:
+- eth.syncing        // Muestra progreso de sincronización
+- eth.blockNumber    // Último bloque descargado
+- net.peerCount      // Cantidad de pares conectados
+- admin.nodeInfo     // Información del nodo
+- exit               // Salir
