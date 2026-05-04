@@ -20,6 +20,5 @@ Admitimos la ejecución de un nodo completo en Mac OS X y Linux.
 
 ### Sistemas Operativos
 
-* [Linux](https://github.com/scolcoin/ScolNetwork/blob/master/Instalacion%20en%20Linux.md)
-
-
+- [Linux](https://github.com/scolcoin/ScolNetwork/blob/master/Instalacion%20en%20Linux.md)
+- [Win](https://github.com/scolcoin/ScolNetwork/blob/master/Instalacion%20en%20Windows.md)
