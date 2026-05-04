@@ -77,8 +77,8 @@ Colócalo en C:\scolcoin\nssm.exe
 
 `nssm.exe install ScolcoinNode`
 
-#### Campo	
-`Valor`
+Agrega la informacion:
+
 #### Path	
 `C:\scolcoin\geth.exe`
 #### Startup directory	
