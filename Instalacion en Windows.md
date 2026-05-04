@@ -40,3 +40,7 @@ Abre PowerShell o CMD como Administrador y ejecuta:
 `cd C:\Scolcoin\`
 
 `geth attach http://127.0.0.1:8545`
+
+### Consultar cantidad de Bloques:
+
+`eth.blockNumber`
