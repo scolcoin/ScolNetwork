@@ -15,7 +15,7 @@ http://scolcoin.com/i/geth-windows-386-Scol.exe
 http://scolcoin.com/i/geth-windows-amd64-Scol.exe
 
 ## Descarga el archivo Genesis
-https://github.com/scolcoin/ScolNetwork/blob/master/genesis.json ubicalo en C:\scolcoin\ o en la unidad D:\scolcoin\
+https://github.com/scolcoin/ScolNetwork/blob/master/genesis.json ubicalo en C:\scolcoin\
 
 ## Instalamos el genesis:
 Para montar el nodo en la red principal, se utiliza el comando geth. Es recomendable configurar la carpeta de datos para no saturar el disco C.
