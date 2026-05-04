@@ -24,4 +24,5 @@ Para montar el nodo en la red principal, se utiliza el comando geth. Es recomend
 Abre PowerShell o CMD como Administrador y ejecuta:
 
 `cd C:\scolcoin`
+
 `geth --datadir D:\scolcoin\`
