@@ -19,7 +19,8 @@ https://github.com/scolcoin/ScolNetwork/blob/master/genesis.json ubicalo en C:\s
 
 ## Ejecución del nodo (Sincronización)
 Para montar el nodo en la red principal, se utiliza el comando geth. Es recomendable configurar la carpeta de datos para no saturar el disco C.
-- D:\scolcoin\
+- `D:\scolcoin\`
+
 Abre PowerShell o CMD como Administrador y ejecuta:
 
 `cd C:\scolcoin
