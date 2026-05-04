@@ -116,5 +116,12 @@ Abre PowerShell o CMD como Administrador y ejecuta:
 - `eth.syncing`        //  Muestra progreso de sincronización
 - `eth.blockNumber`    // Último bloque descargado
 - `net.peerCount`      // Cantidad de pares conectados
+- `admin.peers`      // pares conectados
 - `admin.nodeInfo`     // Información del nodo
 - `exit`               // Salir
+- `eth.accounts`       // cantidad de Direcciones
+- `personal.newAccount()`       // Crea una nueva direccion
+- `eth.getBalance(eth.accounts[0])`       // Obtener balance de la dirección 1
+- `eth.sendTransaction({from:"origen",to:"destino",value: web3.toWei(1, "ether") })`       // enviar Scolcoin a otra wallet
+- `eth.getBalance("0x20dCB6478825b9DA96c543453bCec2B945e9FB88")`       // obtener balance
+ 
