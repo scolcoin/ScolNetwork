@@ -25,7 +25,7 @@ Abre PowerShell o CMD como Administrador y ejecuta:
 
 `cd C:\scolcoin`
 
-`geth init --datadir D:\scolcoin\ C:\scolcoin`
+`geth init --datadir D:\scolcoin\ C:\scolcoin\genesis.json`
 
 ## Inicializar el nodo
 Abre PowerShell o CMD como Administrador y ejecuta:
